@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "snake-game",
+    "name": "Snake Game",
     "slug": "snake-game",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#918ef4"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#918ef4"
+      },
+      "package": "com.mldeveloper.snakegame"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55834211-1003-42e1-8d3b-e6008fa18269"
+      }
     }
   }
 }
